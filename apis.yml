@@ -1,7 +1,23 @@
 aid: court-buddy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/court-buddy.png
 name: Court Buddy
-description: Court Buddy is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Court Buddy is a legal services marketplace that connected consumers and small businesses
+  with independent attorneys for flat-fee, on-demand legal help, aiming to make legal representation
+  more affordable and accessible. It operated under the LawChamps brand (lawchamps.com) and was a
+  500 Global (500 Startups) portfolio company. It is tracked in the API Evangelist network as a
+  company profile; no public API, developer portal, or machine-readable surface was found during
+  enrichment, and the primary web property is currently unreachable.
 url: https://raw.githubusercontent.com/api-evangelist/court-buddy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Legal
+- Legal Services
+- Legal Tech
+- Marketplace
+- Attorneys
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +45,8 @@ maintainers:
 common:
 - type: Website
   url: https://lawchamps.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
